@@ -11,5 +11,74 @@
 </head>
 <body>
   <h1> Guess the Cartoon? </h1>
+    <div class="form-group" id="userVal">
+      <div class="square">
+        <img src="https://image.desiringgod.org/be-a-yoda-not-a-grinch-en/legacy_landscape/large_be-a-yoda-not-a-grinch.jpg?0"
+        alt = "Yoda"/>
+        <div class="form-group">
+          <label for="c_name">Cartoon:</label>
+          <input type="text" class="form-control" id="guessOne" oninput="picGuess1()"/>
+          <span id="userError" class="control-label hidden-message"></span>
+        </div>
+      </div>
+
+      <!--Bugs Bunny all the way to stitch doesn't work unless tabbed"-->
+      <div class="square">
+        <img src="https://vignette4.wikia.nocookie.net/looneytunes/images/2/26/Classic_bugsbunny.png/revision/latest?cb=20160417193815"
+        alt = "Bugs Bunny"/>
+        <div class="form-group">
+          <label for="c_name">Cartoon:</label>
+          <input type="text" class="form-control" id="guessTwo" oninput="picGuess2()"/>
+          <span id="userError" class="control-label hidden-message"></span>
+        </div>
+      </div>
+      <br><br>
+      <div class="square">
+        <br><br><br>
+        <img src="https://vignette2.wikia.nocookie.net/pokemon/images/b/b1/025Pikachu_XY_anime_3.png/revision/latest?cb=20140902050035"
+        alt = "Pikachu"/>
+        <div class="form-group">
+          <label for="c_name">Cartoon:</label>
+          <input type="text" class="form-control" id="guessThree" oninput="picGuess3()">
+          <span id="userError" class="control-label hidden-message"></span>
+        </div>
+      </div>
+      <br><br><br><br><br><br><br>
+      <div class="square">
+        <img src="http://vignette2.wikia.nocookie.net/teentitans/images/3/3b/Thumb-starfire2.jpg/revision/latest?cb=20131019013024"
+        alt = "Starfire"/>
+        <div class="form-group">
+          <label for="c_name">Cartoon:</label>
+          <input type="text" class="form-control" id="guessFour" oninput="picGuess4()">
+          <span id="userError" class="control-label hidden-message"></span>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <div class="square">
+      <img src="http://vignette1.wikia.nocookie.net/one-minute-meelee-fanon/images/7/7e/Stitch_626.png/revision/latest?cb=20160118210924"
+      alt = "Stitch"/>
+      <div class="form-group">
+        <label for="c_name">Cartoon:</label>
+        <input type="text" class="form-control" id="guessFive" oninput="picGuess5()">
+        <span id="userError" class="control-label hidden-message"></span>
+      </div>
+    </div>
+  <button type="button" class="btn btn-primary" onClick="location.href='result.html';">See Results</button>
 </body>
 </html>
+
+<!-- <button type="button" class="btn btn-default" aria-label="Result"
+          onclick="PicGuess()">
+    <span class="glyphicon glyphicon-random" aria-hidden="true"></span>
+  </button>
+
+<br><br><br>
+  <div class="row myinput-row">
+    <div class="form-group" id="userVal">
+        <div class="col-sm-8">
+        </div>
+        <br><br>
+        <input type="button" onclick="location.href='results.html';" value="See Results"/>
+    </div>
+-->
